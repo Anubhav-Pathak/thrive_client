@@ -1,0 +1,22 @@
+{
+    "game": {
+        "currentPlot": {
+            "id": "plot_id",
+            "description": "plot description lorem ipsum dolor sit amet consecutur",
+            "choices": [
+                {
+                    "id": "choice_id",
+                    "description": "choice description lorem ipsum dolor sit amet consecutur"
+                },
+                {
+                    "id": "choice_id",
+                    "description": "choice description lorem ipsum dolor sit amet consecutur"
+                },
+                {
+                    "id": "choice_id",
+                    "description": "choice description lorem ipsum dolor sit amet consecutur"
+                }
+            ]
+        }
+    }  
+}
