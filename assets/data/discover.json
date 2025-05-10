@@ -1,0 +1,38 @@
+{
+    "message": "Success",
+    "statusCode": 200,
+    "data": {
+        "stories": [
+            {
+                "id": "story_1",
+                "title": "The Lost Treasure",
+                "description": "Embark on an exciting quest to find the hidden treasure.",
+                "imageUrl": "https://picsum.photos/300/200",
+                "type": "educative",
+                "status": "inProgress",
+                "createdAt": "2023-10-01T00:00:00.000Z",
+                "lastPlayedAt": "2023-10-09T00:00:00.000Z"
+            },
+            {
+                "id": "story_2",
+                "title": "Space Exploration",
+                "description": "Discover new planets and unravel the mysteries of space.",
+                "imageUrl": "https://picsum.photos/300/200",
+                "type": "educative",
+                "status": "inProgress",
+                "createdAt": "2023-09-26T00:00:00.000Z",
+                "lastPlayedAt": null
+            },
+            {
+                "id": "story_3",
+                "title": "Ancient Civilizations",
+                "description": "Travel back in time and explore ancient cultures.",
+                "imageUrl": "https://picsum.photos/300/200",
+                "type": "educative",
+                "status": "inProgress",
+                "createdAt": "2023-09-11T00:00:00.000Z",
+                "lastPlayedAt": "2023-10-01T00:00:00.000Z"
+            }
+        ]
+    }
+}

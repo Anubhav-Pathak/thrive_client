@@ -1,7 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:thrive_client/core/router/routes.dart';
+import 'package:thrive_client/features/discover/presentation/bloc/discover_cubit.dart';
 
 class QuickLinks extends StatelessWidget {
   const QuickLinks({super.key});
+
+  void navigateTo(BuildContext context, String route) {
+    context.read<DiscoverCubit>().quickNavigateTo(route);
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -22,7 +29,7 @@ class QuickLinks extends StatelessWidget {
                     CircleBorder(),
                   ),
                 ),
-                onPressed: () {},
+                onPressed: () => navigateTo(context, Routes.category),
                 icon: Icon(
                   Icons.category,
                   color: Theme.of(context).colorScheme.onTertiaryContainer,

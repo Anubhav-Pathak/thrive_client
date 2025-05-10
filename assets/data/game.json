@@ -1,0 +1,26 @@
+{
+    "message": "Success",
+    "statusCode": 200,
+    "data": {
+      "currentPlot": {
+        "id": "1",
+        "title": "The Beginning",
+        "description": "You wake up in a mysterious forest, unsure of how you got here. The air is fresh, but an eerie silence fills the space around you.",
+        "imageUrl": "https://example.com/images/forest.jpg",
+        "isLast": false,
+        "choices": [
+          {
+            "id": "101",
+            "name": "Follow the narrow path ahead"
+          },
+          {
+            "id": "102",
+            "name": "Climb the nearby tree to get a better view"
+          }
+        ],
+        "hint": "The path may lead to answers, but a higher vantage point could reveal hidden details.",
+        "createdAt": "2025-03-31T10:00:00Z"
+      }
+    }
+  }
+  

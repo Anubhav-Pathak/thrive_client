@@ -1,3 +1,4 @@
+import 'package:thrive_client/core/utils/constant/enums.dart';
 import 'package:thrive_client/features/discover/domain/entities/story_entity.dart';
 
 class Story extends StoryEntity {
@@ -17,13 +18,11 @@ class Story extends StoryEntity {
       id: json['id'],
       title: json['title'],
       description: json['description'],
-      imageUrl: json['image_url'],
-      type: json['type'],
-      status: json['status'],
-      createdAt: DateTime.parse(json['created_at']),
-      lastPlayedAt: json['last_played_at'] != null
-          ? DateTime.parse(json['last_played_at'])
-          : null,
+      imageUrl: "",
+      type: StoryType.educative,
+      status: Status.inProgress,
+      createdAt: DateTime.now(),
+      lastPlayedAt: DateTime.now(),
     );
   }
 
@@ -32,11 +31,11 @@ class Story extends StoryEntity {
       'id': id,
       'title': title,
       'description': description,
-      'image_url': imageUrl,
+      'imageUrl': imageUrl,
       'type': type,
       'status': status,
-      'created_at': createdAt.toIso8601String(),
-      'last_played_at': lastPlayedAt?.toIso8601String(),
+      'createdAt': createdAt.toIso8601String(),
+      'lastPlayedAt': lastPlayedAt?.toIso8601String(),
     };
   }
 }

@@ -1,0 +1,108 @@
+[
+    {
+      "id": "1",
+      "title": "The Beginning",
+      "description": "You wake up in a mysterious forest, unsure of how you got here. The air is fresh, but an eerie silence fills the space around you.",
+      "imageUrl": "https://example.com/images/forest.jpg",
+      "isLast": false,
+      "choices": [
+        {
+          "id": "101",
+          "name": "Follow the narrow path ahead",
+          "next_plot_id": "2"
+        },
+        {
+          "id": "102",
+          "name": "Climb the nearby tree to get a better view",
+          "next_plot_id": "3"
+        }
+      ],
+      "hint": "The path may lead to answers, but a higher vantage point could reveal hidden details.",
+      "createdAt": "2025-03-31T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "The Whispering Path",
+      "description": "As you walk along the path, you hear faint whispers in the distance. The trees sway gently, though there is no wind.",
+      "imageUrl": "https://example.com/images/path.jpg",
+      "isLast": false,
+      "choices": [
+        {
+          "id": "201",
+          "name": "Investigate the whispers",
+          "next_plot_id": "4"
+        },
+        {
+          "id": "202",
+          "name": "Ignore the whispers and keep walking",
+          "next_plot_id": "5"
+        }
+      ],
+      "hint": "Some secrets are meant to be uncovered, but caution is always wise.",
+      "createdAt": "2025-03-31T10:05:00Z"
+    },
+    {
+      "id": "3",
+      "title": "A View from Above",
+      "description": "You climb the tree and get a better view of your surroundings. In the distance, you see a cabin and a shimmering lake.",
+      "imageUrl": "https://example.com/images/tree_view.jpg",
+      "isLast": false,
+      "choices": [
+        {
+          "id": "301",
+          "name": "Head towards the cabin",
+          "next_plot_id": "6"
+        },
+        {
+          "id": "302",
+          "name": "Make your way to the lake",
+          "next_plot_id": "7"
+        }
+      ],
+      "hint": "A shelter might offer clues, but water sources attract life.",
+      "createdAt": "2025-03-31T10:10:00Z"
+    },
+    {
+      "id": "4",
+      "title": "The Ghostly Murmurs",
+      "description": "You follow the whispers and discover an ancient stone circle, where ghostly figures seem to be reenacting a ritual.",
+      "imageUrl": "https://example.com/images/stone_circle.jpg",
+      "isLast": false,
+      "choices": [
+        {
+          "id": "401",
+          "name": "Step into the circle",
+          "next_plot_id": "8"
+        },
+        {
+          "id": "402",
+          "name": "Watch from a distance",
+          "next_plot_id": "9"
+        }
+      ],
+      "hint": "Ancient places hold mysteries, but also dangers.",
+      "createdAt": "2025-03-31T10:15:00Z"
+    },
+    {
+      "id": "5",
+      "title": "The Endless Path",
+      "description": "You ignore the whispers and continue walking, but the path seems to stretch endlessly. You feel as if you're walking in circles.",
+      "imageUrl": "https://example.com/images/endless_path.jpg",
+      "isLast": false,
+      "choices": [
+        {
+          "id": "501",
+          "name": "Mark a tree and walk further",
+          "next_plot_id": "10"
+        },
+        {
+          "id": "502",
+          "name": "Turn back to where you started",
+          "next_plot_id": "11"
+        }
+      ],
+      "hint": "Repeating patterns can be broken with awareness.",
+      "createdAt": "2025-03-31T10:20:00Z"
+    }
+  ]
+  
